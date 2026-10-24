@@ -1,0 +1,36 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+body.dark {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+body.dark header {
+  background-color: rgba(15, 23, 42, 0.8);
+  border-color: #1e293b;
+}
+body.dark input {
+  background-color: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+body.dark .bg-white {
+  background-color: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+body.dark #resultWord {
+  color: #f8fafc;
+}
+body.dark #savedModal > div {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
